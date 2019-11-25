@@ -7,4 +7,4 @@ def test_anagram_completion():
 
 def test_airliner_seats():
   a = AirlinerSeats()
-  assert a.mostAisleSeats(6, 3) == ['..SS.S.']
+  assert a.mostAisleSeats(6, 3) == ['..SS.S']
