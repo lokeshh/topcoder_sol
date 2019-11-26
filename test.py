@@ -22,4 +22,4 @@ def test_grafix_mask():
 def test_bloggo_doc_structure():
   b = bloggoDocStructure()
   assert b.compare(["<html><h1></h1></html>"],
-    ["<html><h1>abc</h1></html>"]) == 'incompatible'
+    ["<html><h1>abc</h1></html>"]) == 'equivalent'
