@@ -2,6 +2,7 @@ from medium.A.anagram_completion import AnagramCompletion
 from medium.A.airliner_seats import AirlinerSeats
 from medium.G.grafix_mask import grafixMask
 from medium.B.bloggo_doc_structure import bloggoDocStructure
+from medium.Z.zig_zag import ZigZag
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -23,3 +24,8 @@ def test_bloggo_doc_structure():
   b = bloggoDocStructure()
   assert b.compare(["<html><h1></h1></html>"],
     ["<html><h1>abc</h1></html>"]) == 'equivalent'
+
+def test_zig_zag():
+  z = ZigZag()
+  seq = [70, 55, 13, 2, 99, 2, 80, 80, 80, 80, 100, 19, 7, 5, 5, 5, 1000, 32, 32]
+  assert z.longestZigZag(seq) == 8
