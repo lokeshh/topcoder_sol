@@ -33,4 +33,4 @@ def test_zig_zag():
 
 def test_zeroes_and_ones_grid():
   z = ZeroesAndOnesGrid()
-  assert z.minMovesCount(['1110', '0011']) == 3
+  assert z.minMovesCount(['1110', '0011']) == 5
