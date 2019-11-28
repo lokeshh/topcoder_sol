@@ -3,6 +3,7 @@ from medium.A.airliner_seats import AirlinerSeats
 from medium.G.grafix_mask import grafixMask
 from medium.B.bloggo_doc_structure import bloggoDocStructure
 from medium.Z.zig_zag import ZigZag
+from medium.Z.zeroes_and_ones_grid import ZeroesAndOnesGrid
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -29,3 +30,7 @@ def test_zig_zag():
   z = ZigZag()
   seq = [70, 55, 13, 2, 99, 2, 80, 80, 80, 80, 100, 19, 7, 5, 5, 5, 1000, 32, 32]
   assert z.longestZigZag(seq) == 8
+
+def test_zeroes_and_ones_grid():
+  z = ZeroesAndOnesGrid()
+  assert z.minMovesCount(['1110', '0011']) == 3
