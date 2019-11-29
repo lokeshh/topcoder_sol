@@ -4,6 +4,7 @@ from medium.G.grafix_mask import grafixMask
 from medium.B.bloggo_doc_structure import bloggoDocStructure
 from medium.Z.zig_zag import ZigZag
 from medium.Z.zeroes_and_ones_grid import ZeroesAndOnesGrid
+from medium.Z.zeno_division import ZenoDivision
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -34,3 +35,7 @@ def test_zig_zag():
 def test_zeroes_and_ones_grid():
   z = ZeroesAndOnesGrid()
   assert z.minMovesCount(['1110', '0011']) == 5
+
+def zeno_division():
+  z = ZenoDivision()
+  assert z.find_length('5', '9') == '*---**'
