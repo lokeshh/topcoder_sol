@@ -43,4 +43,4 @@ def test_zeno_division():
 
 def test_yllion():
   y = Yllion()
-  assert y.getPower('ten hundred myriad ', 'ten')) == 'lol'
+  assert y.getPower('ten hundred myriad ', 'ten') == 'lol'
