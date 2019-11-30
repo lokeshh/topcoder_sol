@@ -5,6 +5,7 @@ from medium.B.bloggo_doc_structure import bloggoDocStructure
 from medium.Z.zig_zag import ZigZag
 from medium.Z.zeroes_and_ones_grid import ZeroesAndOnesGrid
 from medium.Z.zeno_division import ZenoDivision
+from medium.Y.yllion import Yllion
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -36,6 +37,10 @@ def test_zeroes_and_ones_grid():
   z = ZeroesAndOnesGrid()
   assert z.minMovesCount(['1110', '0011']) == 5
 
-def zeno_division():
+def test_zeno_division():
   z = ZenoDivision()
   assert z.find_length('5', '9') == '*---**'
+
+def test_yllion():
+  y = Yllion()
+  assert y.getPower('ten hundred myriad ', 'ten')) == 'lol'
