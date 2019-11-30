@@ -39,8 +39,8 @@ def test_zeroes_and_ones_grid():
 
 def test_zeno_division():
   z = ZenoDivision()
-  assert z.find_length('5', '9') == '*---**'
+  assert z.cycle('5', '9') == '*---**'
 
 def test_yllion():
   y = Yllion()
-  assert y.getPower('ten hundred myriad ', 'ten') == 'lol'
+  assert y.getPower('ten hundred myriad', 'ten') == 'lol'
