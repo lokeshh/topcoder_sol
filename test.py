@@ -48,5 +48,5 @@ def test_yllion():
 
 def test_yet_another_or_problem():
   y = YetAnotherORProblem()
-  assert y.countSequences([576460752303423488, 288230376151711744]) == 0
+  assert y.countSequences([576460752303423488, 288230376151711744]) == 566919206
 
