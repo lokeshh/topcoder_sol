@@ -6,6 +6,7 @@ from medium.Z.zig_zag import ZigZag
 from medium.Z.zeroes_and_ones_grid import ZeroesAndOnesGrid
 from medium.Z.zeno_division import ZenoDivision
 from medium.Y.yllion import Yllion
+from medium.Y.yet_another_or_problem import YetAnotherORProblem
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -44,3 +45,8 @@ def test_zeno_division():
 def test_yllion():
   y = Yllion()
   assert y.getPower('ten hundred myriad', 'ten') == 'one myllion'
+
+def test_yet_another_or_problem():
+  y = YetAnotherORProblem()
+  t = y.countSequences([576460752303423488, 288230376151711744])
+
