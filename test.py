@@ -7,6 +7,7 @@ from medium.Z.zeroes_and_ones_grid import ZeroesAndOnesGrid
 from medium.Z.zeno_division import ZenoDivision
 from medium.Y.yllion import Yllion
 from medium.Y.yet_another_or_problem import YetAnotherORProblem
+from medium.W.word_composition_game import WordCompositionGame
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -49,4 +50,8 @@ def test_yllion():
 def test_yet_another_or_problem():
   y = YetAnotherORProblem()
   assert y.countSequences([576460752303423488, 288230376151711744]) == 566919206
+
+def test_word_composition_game():
+  w = WordCompositionGame()
+  assert w.score(["cat", "dog", "pig", "mouse"], ["cat", "pig"], ["dog", "cat"]) == '8/3/3'
 
