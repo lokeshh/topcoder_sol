@@ -1,4 +1,4 @@
-# Topcoder problem solutions in Python
+# Topcoder solutions [Python]
 
 ![](https://github.com/lokeshh/topcoder_sol/workflows/BasicTest/badge.svg)
 
