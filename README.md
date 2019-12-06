@@ -1,10 +1,12 @@
-# Topcoder problem solutions in Python
+# Topcoder solutions [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 
 ![](https://github.com/lokeshh/topcoder_sol/workflows/BasicTest/badge.svg)
 
-**Purpose of this repo is to store solution of all topcoder problems in python 3.7. 
-I will try to solve one problem per day to improve my competitive programming skills and helps others to look for solution in a easy to understand language i.e. Python.**
+[![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
+[![ForTheBadge winter-is-coming](http://ForTheBadge.com/images/badges/winter-is-coming.svg)](http://ForTheBadge.com)
 
-- If you want a problem solved, feel free to create an issue.
-- If you find solution to a problem unclear, create an issue and I will add comments to it.
+
+
+- If you want a problem solved, create an issue.
 
