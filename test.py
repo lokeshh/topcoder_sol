@@ -8,6 +8,7 @@ from medium.Z.zeno_division import ZenoDivision
 from medium.Y.yllion import Yllion
 from medium.Y.yet_another_or_problem import YetAnotherORProblem
 from medium.W.word_composition_game import WordCompositionGame
+from medium.W.who_will_win import WhoWillWin
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -55,3 +56,6 @@ def test_word_composition_game():
   w = WordCompositionGame()
   assert w.score(["cat", "dog", "pig", "mouse"], ["cat", "pig"], ["dog", "cat"]) == '8/3/3'
 
+def test_who_will_win():
+  w = WhoWillWin()
+  assert w.determineWinner(100) == 3
