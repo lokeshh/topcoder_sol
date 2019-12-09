@@ -59,7 +59,7 @@ def test_word_composition_game():
 
 def test_who_will_win():
   w = WhoWillWin()
-  assert w.determineWinner(100) == 3
+  assert w.determineWinner(100) == 73
 
 def test_two_lottery_games():
   t = TwoLotteryGames()
