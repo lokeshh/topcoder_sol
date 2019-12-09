@@ -9,6 +9,7 @@ from medium.Y.yllion import Yllion
 from medium.Y.yet_another_or_problem import YetAnotherORProblem
 from medium.W.word_composition_game import WordCompositionGame
 from medium.W.who_will_win import WhoWillWin
+from medium.T.two_lottery_games import TwoLotteryGames
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -59,3 +60,7 @@ def test_word_composition_game():
 def test_who_will_win():
   w = WhoWillWin()
   assert w.determineWinner(100) == 3
+
+def test_two_lottery_games():
+  t = TwoLotteryGames()
+  assert t.getHigherChanceGame(3, 1, 1) == 1/3
