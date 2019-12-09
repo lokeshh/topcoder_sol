@@ -13,7 +13,3 @@ class TwoLotteryGames:
             if t >= k:
                 s += 1
         return s / a
-
-t = TwoLotteryGames()
-v = t.getHigherChanceGame(3, 1, 1)
-breakpoint()
