@@ -10,6 +10,7 @@ from medium.Y.yet_another_or_problem import YetAnotherORProblem
 from medium.W.word_composition_game import WordCompositionGame
 from medium.W.who_will_win import WhoWillWin
 from medium.T.two_lottery_games import TwoLotteryGames
+from medium.T.true_statements import TrueStatements
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -64,3 +65,7 @@ def test_who_will_win():
 def test_two_lottery_games():
   t = TwoLotteryGames()
   assert t.getHigherChanceGame(3, 1, 1) == 1/3
+
+def test_true_statements():
+  t = TrueStatements()
+  t.numberTrue((0, 1, 3, 2, 2)) == 2
