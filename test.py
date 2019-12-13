@@ -73,4 +73,4 @@ def test_true_statements():
 
 def test_trainyard():
   t = Trainyard()
-  assert t.reachableSquares(["++++++++S+", "++++++++++", "++++++++++"], 10) == 3
+  assert t.reachableSquares(["++++++++S+", "++++++++++", "++++++++++"], 10) == 30
