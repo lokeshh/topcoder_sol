@@ -11,6 +11,7 @@ from medium.W.word_composition_game import WordCompositionGame
 from medium.W.who_will_win import WhoWillWin
 from medium.T.two_lottery_games import TwoLotteryGames
 from medium.T.true_statements import TrueStatements
+from medium.T.trainyard import Trainyard
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -69,3 +70,7 @@ def test_two_lottery_games():
 def test_true_statements():
   t = TrueStatements()
   t.numberTrue((0, 1, 3, 2, 2)) == 2
+
+def test_trainyard():
+  t = Trainyard()
+  assert t.reachableSquares(["++++++++++", "++++++++++", "++++++++++"], 10) == 3
