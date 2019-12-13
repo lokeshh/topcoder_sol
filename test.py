@@ -69,7 +69,7 @@ def test_two_lottery_games():
 
 def test_true_statements():
   t = TrueStatements()
-  t.numberTrue((0, 1, 3, 2, 2)) == 2
+  assert t.numberTrue((0, 1, 3, 2, 2)) == 2
 
 def test_trainyard():
   t = Trainyard()
