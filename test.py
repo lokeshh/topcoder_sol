@@ -12,6 +12,7 @@ from medium.W.who_will_win import WhoWillWin
 from medium.T.two_lottery_games import TwoLotteryGames
 from medium.T.true_statements import TrueStatements
 from medium.T.trainyard import Trainyard
+from medium.T.tax_table import TaxTable
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -74,3 +75,7 @@ def test_true_statements():
 def test_trainyard():
   t = Trainyard()
   assert t.reachableSquares(["++++++++S+", "++++++++++", "++++++++++"], 10) == 30
+
+def test_tax_table():
+  t = TaxTable()
+  assert t.income(1000000) == 200
