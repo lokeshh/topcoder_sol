@@ -78,4 +78,4 @@ def test_trainyard():
 
 def test_tax_table():
   t = TaxTable()
-  assert t.income(1000000) == 200
+  assert t.income(1000000) == 2929591
