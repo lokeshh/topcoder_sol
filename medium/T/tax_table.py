@@ -18,6 +18,3 @@ class TaxTable:
         if 319100 <= d:
             return d
         return -1
-
-t = TaxTable()
-breakpoint()
