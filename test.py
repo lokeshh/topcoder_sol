@@ -13,6 +13,7 @@ from medium.T.two_lottery_games import TwoLotteryGames
 from medium.T.true_statements import TrueStatements
 from medium.T.trainyard import Trainyard
 from medium.T.tax_table import TaxTable
+from medium.T.tandem_repeats import TandemRepeats
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -79,3 +80,8 @@ def test_trainyard():
 def test_tax_table():
   t = TaxTable()
   assert t.income(1000000) == 2929591
+
+def test_tandem_repeats():
+  t = TandemRepeats()
+  assert t.maxLength('AGAGAAAGAA', 3) == 5
+
