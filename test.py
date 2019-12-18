@@ -14,6 +14,7 @@ from medium.T.true_statements import TrueStatements
 from medium.T.trainyard import Trainyard
 from medium.T.tax_table import TaxTable
 from medium.T.tandem_repeats import TandemRepeats
+from medium.T.tall_people import TallPeople
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -84,4 +85,8 @@ def test_tax_table():
 def test_tandem_repeats():
   t = TandemRepeats()
   assert t.maxLength('AGAGAAAGAA', 3) == 5
+
+def test_tall_people():
+  t = TallPeople()
+  assert t.getPeople(["9 2 3", "4 8 7"]) == (4, 7)
 
