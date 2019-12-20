@@ -15,6 +15,7 @@ from medium.T.trainyard import Trainyard
 from medium.T.tax_table import TaxTable
 from medium.T.tandem_repeats import TandemRepeats
 from medium.T.tall_people import TallPeople
+from medium.S.sums_of_perfect_powers import SumsOfPerfectPowers
 
 def test_anagram_completion():
   a = AnagramCompletion()
@@ -89,4 +90,8 @@ def test_tandem_repeats():
 def test_tall_people():
   t = TallPeople()
   assert t.getPeople(["9 2 3", "4 8 7"]) == (4, 7)
+
+def test_sums_of_perfect_powers():
+  s = SumsOfPerfectPowers()
+  assert s.howMany(1, 100) == 233
 
