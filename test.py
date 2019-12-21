@@ -93,5 +93,5 @@ def test_tall_people():
 
 def test_sums_of_perfect_powers():
   s = SumsOfPerfectPowers()
-  assert s.howMany(1, 100) == 233
+  assert s.howMany(1, 100) == 60
 
